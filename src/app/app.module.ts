@@ -9,13 +9,10 @@ import { NotpagesfoundComponent } from './pages/notpagesfound/notpagesfound.comp
 
 
 
-
-
-
 @NgModule({
   declarations: [
     AppComponent,
-    NotpagesfoundComponent,
+    NotpagesfoundComponent
   ],
   imports: [
     BrowserModule,
