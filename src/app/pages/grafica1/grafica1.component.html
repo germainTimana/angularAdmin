@@ -1,1 +1,44 @@
-<p>grafica1 works!</p>
+<div class="row">
+    <div class="col-6">
+        Grafica
+        <app-grafdona title="ventas"></app-grafdona>
+    </div>
+    <div class="col-6">
+        Grafica
+        <app-grafdona [labels]="labels1"
+        title="Compras"></app-grafdona>
+    </div>
+</div>
+<div class="row">
+    <div class="col-6">
+        Grafica
+        <app-grafdona title="Devoluciones" [data]="data1"></app-grafdona>
+    </div>
+    <div class="col-6">
+        Grafica
+        <app-grafdona title="Ventas por mayor"></app-grafdona>
+    </div>
+</div>
+
+<!-- <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+
+                <h3>Analisis</h3>
+                <div>
+                    <div>
+                      <div style="display: block">
+                        <canvas baseChart
+                          [data]="polarAreaChartData"
+                          [labels]="polarAreaChartLabels"
+                          [legend]="polarAreaLegend"
+                          [colors]= "colorsAnalitics"
+                          chartType="polarArea">
+                        </canvas>
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+        </div>
+    </div> -->

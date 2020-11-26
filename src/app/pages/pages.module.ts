@@ -7,6 +7,8 @@ import { PagesComponent } from './pages.component';
 import { SharedModule } from '../shared/shared.module';
 import { AppRoutingModule } from '../app-routing.module';
 
+import { ChartsModule } from 'ng2-charts';
+
 import { FormsModule } from '@angular/forms';
 import { ComponentsModule } from '../components/components.module';
 
@@ -29,7 +31,8 @@ import { ComponentsModule } from '../components/components.module';
     FormsModule,
     SharedModule,
     AppRoutingModule,
-    ComponentsModule
+    ComponentsModule,
+    ChartsModule
   ]
 })
 export class PagesModule { }
